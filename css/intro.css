@@ -1,6 +1,5 @@
 .intro-bg {
-  background: #000000;
-  color: #fff;
+  background: var(--color-b12);
   box-shadow: inset 0px -120px #fff;
 }
 
@@ -18,21 +17,10 @@
 }
 
 .intro-content h1 {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-size: 4rem;
-  line-height: 1.125;
   margin-bottom: 32px;
 }
 
-.intro-content h1 span {
-  color: #ffbb00;
-}
-
 .intro-content p {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  color: #b2b2b2;
   margin-bottom: 20px;
 }
 
@@ -41,19 +29,9 @@
   border-radius: 4px;
 }
 
-@media (max-width: 1200px) {
-  .intro-content h1 {
-    font-size: 3rem;
-  }
-
-  .intro-content p {
-    font-size: 1.25rem;
-  }
-}
-
 @media (max-width: 800px) {
   .intro-bg {
-    background: #111111;
+    background: var(--color-b11);
     padding-top: 40px;
     box-shadow: inset 0px -60px #fff;
   }
@@ -73,12 +51,10 @@
   }
 
   .intro-content h1 {
-    font-size: 2rem;
     margin-bottom: 16px;
   }
 
   .intro-content p {
-    font-size: 1.125rem;
     max-width: 45ch;
   }
 }

@@ -1,0 +1,89 @@
+/* Variáveis CSS */
+
+:root {
+  /* Gradientes */
+  --btn-gradient: linear-gradient(#ffbf00, #f2a50c);
+  --btn-gradient-hover: linear-gradient(#ffb60d, #e59317);
+
+  /* Cores de Base */
+  --color-b12: #000;
+  --color-b11: #121212;
+  --color-b10: #2e2e2e;
+  --color-b9: #404040;
+  --color-b8: #595959;
+  --color-b7: #707070;
+  --color-b6: #999898;
+  --color-b5: #b2b2b2;
+  --color-b4: #cccbcb;
+  --color-b3: #dedddd;
+  --color-b2: #edecec;
+  --color-b1: #f7f7f7;
+  --color-b0: #fff;
+
+  /* Cores Primárias */
+  --color-p5: #332200;
+  --color-p2: #e5a40b;
+  --color-p3: #a66e00;
+  --color-p4: #664400;
+  --color-p1: #ffbb00;
+}
+
+/* Classes Utilitárias */
+
+/* Cores de Base */
+.color-b12 {
+  color: var(--color-b12);
+}
+.color-b11 {
+  color: var(--color-b11);
+}
+.color-b10 {
+  color: var(--color-b10);
+}
+.color-b9 {
+  color: var(--color-b9);
+}
+.color-b8 {
+  color: var(--color-b8);
+}
+.color-b7 {
+  color: var(--color-b7);
+}
+.color-b6 {
+  color: var(--color-b6);
+}
+.color-b5 {
+  color: var(--color-b5);
+}
+.color-b4 {
+  color: var(--color-b4);
+}
+.color-b3 {
+  color: var(--color-b3);
+}
+.color-b2 {
+  color: var(--color-b2);
+}
+.color-b1 {
+  color: var(--color-b1);
+}
+.color-b0 {
+  color: var(--color-b0);
+}
+
+/* Cores Primárias */
+.color-p5 {
+  color: var(--color-p5);
+}
+.color-p4 {
+  color: var(--color-p4);
+}
+.color-p3 {
+  color: var(--color-p3);
+}
+.color-p2 {
+  color: var(--color-p2);
+}
+.color-p1 {
+  color: var(--color-p1);
+}
