@@ -1,11 +1,7 @@
 .home-bikes {
-  padding-top: 60px;
+  padding: 60px 0px;
 }
 .home-bikes h2 {
-  margin-bottom: 40px;
-}
-
-.home-bikes-list {
   margin-bottom: 40px;
 }
 
@@ -56,7 +52,7 @@
 
 @media (max-width: 800px) {
   .home-bikes {
-    padding-top: 40px;
+    padding: 40px 0px;
   }
   .home-bikes-list {
     gap: 20px;

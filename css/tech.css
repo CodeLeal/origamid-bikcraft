@@ -16,7 +16,7 @@
 }
 
 .tech-content {
-  padding: 160px 0px;
+  padding: 140px 0px;
 }
 
 .tech-content > span {
@@ -54,7 +54,7 @@
     grid-template-columns: 1fr;
   }
   .tech-content {
-    padding: 60px 0px;
+    padding: 40px 0px;
   }
   .tech-img {
     display: none;
