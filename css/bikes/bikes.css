@@ -1,0 +1,108 @@
+#bicicletas .header-menu li:nth-child(1) a:after {
+  width: 100%;
+  background: var(--color-b0);
+}
+
+.bikes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+.bike-bg:nth-child(3) {
+  background: linear-gradient(90deg, var(--color-b0) 30%, var(--color-b11) 30%);
+}
+
+.bike-image {
+  display: grid;
+}
+
+.bike-image img,
+.bike-image span {
+  grid-area: 1/1;
+}
+
+.bike-image span {
+  place-self: start end;
+  margin-top: 20px;
+  background: var(--color-b12);
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  border-radius: 4px 0px 0px 4px;
+  top: 20px;
+  right: 0px;
+}
+
+.bike-content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  max-width: 500px;
+}
+
+.bike-content p,
+.bike-content ul {
+  grid-column: 1;
+}
+
+.bike-content h2 {
+  grid-column: 1/ -1;
+  margin-bottom: 20px;
+}
+
+.bike-content h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background: var(--color-p1);
+  top: -8px;
+}
+
+.bike-content p {
+  grid-column: 1/-1;
+  margin-bottom: 32px;
+}
+
+.bike-content ul {
+  display: grid;
+  gap: 16px;
+}
+
+.bike-content li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bike-content a {
+  place-self: end end;
+}
+
+@media (max-width: 800px) {
+  .bikes {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+  .bike-bg:nth-child(3) {
+    background: var(--color-b11);
+  }
+  .bike-content {
+    max-width: initial;
+  }
+}
+
+@media (max-width: 600px) {
+  .bike-content {
+    grid-template-columns: 1fr;
+  }
+  .bike-content ul {
+    font-size: 1rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+  }
+  .bike-content a {
+    place-self: start;
+  }
+}
