@@ -1,8 +1,12 @@
+/* Global */
 @import "./global.css";
 @import "./typo.css";
 @import "./color.css";
 @import "./header.css";
+
+/* Home */
 @import "./intro.css";
 @import "./home-bikes.css";
 @import "./tech.css";
 @import "./partners.css";
+@import "./review.css";
