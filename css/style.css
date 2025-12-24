@@ -1,16 +1,19 @@
 /* Global */
-@import "./global.css";
-@import "./typo.css";
-@import "./color.css";
-@import "./header.css";
-@import "./footer.css";
+@import "./global/global.css";
+@import "./global/typo.css";
+@import "./global/color.css";
+@import "./global/header.css";
+@import "./global/footer.css";
 
 /* Home */
-@import "./intro.css";
-@import "./home-bikes.css";
-@import "./tech.css";
-@import "./partners.css";
-@import "./review.css";
+@import "./home/intro.css";
+@import "./home/home-bikes.css";
+@import "./home/tech.css";
+@import "./home/partners.css";
+@import "./home/review.css";
 
 /* Seguros */
-@import "./insurance.css";
+@import "./insurance/insurance.css";
+
+/* Termos e Condições */
+@import "./terms/terms.css";
