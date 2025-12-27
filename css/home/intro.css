@@ -25,7 +25,7 @@
 @media (max-width: 800px) {
   .intro-bg {
     background: var(--color-b11);
-    padding-top: 40px;
+    padding-top: 60px;
     box-shadow: inset 0px -60px #fff;
   }
 

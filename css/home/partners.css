@@ -35,9 +35,6 @@
 }
 
 @media (max-width: 800px) {
-  .partners {
-    padding: 40px 0px;
-  }
   .partners h2 {
     margin-bottom: 20px;
   }

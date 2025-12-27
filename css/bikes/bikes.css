@@ -81,6 +81,9 @@
 }
 
 @media (max-width: 800px) {
+  #bicicletas .header-menu li:nth-child(1) a {
+    background-color: var(--color-b10);
+  }
   .bikes {
     grid-template-columns: 1fr;
     padding: 40px 20px;

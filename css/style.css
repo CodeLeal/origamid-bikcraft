@@ -13,6 +13,8 @@
 
 /* Seguros */
 @import "./insurance/insurance.css";
+@import "./insurance/advantages.css";
+@import "./insurance/questions.css";
 
 /* Termos e Condições */
 @import "./terms/terms.css";

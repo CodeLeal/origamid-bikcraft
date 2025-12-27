@@ -1,3 +1,8 @@
+#seguros .header-menu li:nth-child(2) a:after {
+  width: 100%;
+  background: var(--color-b0);
+}
+
 .insurance-bg {
   background: var(--color-b11);
   padding: 60px 0px;
@@ -60,6 +65,10 @@
 
 .insurance-item a {
   grid-column: 1 /-1;
+}
+
+#seguros .title h1 {
+  margin-bottom: 40px;
 }
 
 @media (max-width: 800px) {
