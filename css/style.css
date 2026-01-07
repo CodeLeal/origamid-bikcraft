@@ -22,3 +22,5 @@
 /* Bicicletas */
 @import "./bikes/home-bikes.css";
 @import "./bikes/bikes.css";
+@import "./bikes/bike-page.css";
+@import "./bikes/bike-insurance.css";

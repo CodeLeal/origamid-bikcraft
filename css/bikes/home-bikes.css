@@ -23,6 +23,7 @@
 
 .home-bikes-list img {
   height: auto;
+  width: 100%;
   margin-bottom: 16px;
 }
 
