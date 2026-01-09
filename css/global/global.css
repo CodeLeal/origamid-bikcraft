@@ -52,6 +52,8 @@ img[src$=".jpg"] {
   color: var(--color-p5);
   background: var(--btn-gradient);
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {

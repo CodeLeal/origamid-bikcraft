@@ -4,6 +4,7 @@
 @import "./global/color.css";
 @import "./global/header.css";
 @import "./global/footer.css";
+@import "./global/forms.css";
 
 /* Home */
 @import "./home/intro.css";
@@ -24,3 +25,7 @@
 @import "./bikes/bikes.css";
 @import "./bikes/bike-page.css";
 @import "./bikes/bike-insurance.css";
+
+/* Contato */
+@import "./contact/contact.css";
+@import "./contact/stores.css";
